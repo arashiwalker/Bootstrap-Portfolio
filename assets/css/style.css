@@ -1,3 +1,4 @@
+
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 18px;
@@ -9,6 +10,8 @@ body {
 * {
   box-sizing: border-box;
 }
+
+.container-fluid
 
 /* general */
 
@@ -79,7 +82,7 @@ h3 {
 
 nav {
   float: right;
-  margin-top: 25px;
+  margin-top: 35px;
 }
 
 nav a {
@@ -89,7 +92,7 @@ nav a {
   line-height: 18px;
   color: #999;
   text-decoration: none;
-  border-left: 1px solid #efefef;
+/*  border-left: 1px solid #efefef;*/
 }
 
 nav a:first-child {
@@ -108,6 +111,12 @@ footer {
   background: #666666;
   border-top: 8px solid #4aaaa5;
   height: 50px;
+  width:100%;
+  height:20px;
+  position:absolute;
+  bottom:0;
+  left:0;
+  position:fixed;
 }
 
 h3, h2 {
@@ -120,7 +129,7 @@ h3, h2 {
 /* main */
 
 #main-container {
-  padding-top: 130px;
+  padding-top: 70px;
   min-height: calc(100vh - 70px);
 }
 
