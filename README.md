@@ -24,7 +24,7 @@ Having an active and healthy commit history on GitHub is important for your futu
 
   * When writing a commit message, avoid vague messages like "fixed." Be descriptive so that you and anyone else looking at your repository knows what happened with each commit.
 
-* We would like you to have well over 200 commits by graduation, so commit early and often!
+* We would like you to have well over 200 commits by graduation, so commit early and often !
 
 ### Submission on BCS
 
